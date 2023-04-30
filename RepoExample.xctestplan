@@ -1,0 +1,30 @@
+{
+  "configurations" : [
+    {
+      "id" : "5323B5F2-9DCF-41AD-AE8F-7FA5F468214B",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:RepoExample.xcodeproj",
+      "identifier" : "32DC806329FEB78500F1BA75",
+      "name" : "RepoExample"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:RepoExample.xcodeproj",
+        "identifier" : "32DC807329FEB78500F1BA75",
+        "name" : "RepoExampleTests"
+      }
+    }
+  ],
+  "version" : 1
+}
